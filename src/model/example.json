@@ -1,0 +1,60 @@
+[
+    {
+        "word": "Abhor",
+        "forms": ["verb", "adj"],
+        "defs": [
+            {
+                "def": "to hate, detest",
+                "form": "verb",
+                "examples": [
+                    "I <b>abhor</b> the way he treats his wife.",
+                    "She <b>abhors</b> all forms of racism.",
+                    "I <b>abhor</b> the way he treats his wife."
+                ]
+            }
+        ],
+        "otherForms": [
+            {
+                "form": "noun",
+                "word": "Abhorrence"
+            },
+            {
+                "form": "adv",
+                "word": "Abhorrently"
+            },
+            {
+                "form": "adj",
+                "word": "Abhorrent"
+            }
+        ]
+    },
+    {
+        "word": "Abhorrent",
+        "forms": ["adj"],
+        "defs": [
+            {
+                "def": "disgusting, loathsome",
+                "form": "adj",
+                "examples": [
+                    "The child's abhorrent behavior was not tolerated by the school.",
+                    "The abhorrent smell of rotten eggs filled the room.",
+                    "The child's abhorrent behavior was not tolerated by the school."
+                ]
+            }
+        ],
+        "otherForms": [
+            {
+                "form": "noun",
+                "word": "Abhorrence"
+            },
+            {
+                "form": "adv",
+                "word": "Abhorrently"
+            },
+            {
+                "form": "verb",
+                "word": "Abhor"
+            }
+        ]
+    }
+]
