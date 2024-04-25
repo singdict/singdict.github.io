@@ -14,6 +14,7 @@ export type WordSchema = {
         link: string;
         title: string;
     }>;
+    etymology?: string;
 };
 
 export type WordHistory = {

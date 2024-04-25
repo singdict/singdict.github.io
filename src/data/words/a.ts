@@ -5,6 +5,11 @@ const GRE_LINK: NonNullable<WordSchema['links']>[number] = {
     title: "The 357 Best GRE Vocabulary Words: Complete List"
 }
 
+const WIKTIONARY_LINK: NonNullable<WordSchema['links']>[number] = {
+    link: "https://en.wiktionary.org/wiki/Category:Singlish",
+    title: "Wiktionary category: Singlish"
+}
+
 export default [
     {
         word: "abate",
@@ -298,5 +303,19 @@ export default [
             },
         ],
         links: [GRE_LINK]
+    },
+    {
+        word: 'atas',
+        forms: ['adjective'],
+        defs: [
+            {
+                def: 'Atas means "haughty" or "snobbish", often used to describe someone who is acting or behaving in an elitist or pretentious manner. Additionally, it can also refer to something that is high-end or posh, such as a luxurious restaurant or an expensive brand.  Note: Atas is derived from the Malay language, where it means "upper class" or "high society". In Singlish, it has taken on a slightly negative connotation due to its association with snobbery and elitism.',
+                examples: [
+                    'Wow, your friend is so atas. She only wants to eat at Michelin-starred restaurants!'
+                ],
+            }
+        ],
+        links: [WIKTIONARY_LINK],
+        etymology: 'malay',
     }
 ] as WordSchema[];
