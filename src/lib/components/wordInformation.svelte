@@ -36,9 +36,9 @@
             <ol class="ml-5 mt-2 list-none word-list w-full flex gap-4 flex-col">
                 {#each (word.defs ?? []) as def, index}
                     <li class:memory-test={memoryTest} class="flex gap-1 max-w-[95%]">
-                        <span>
+                        <!--<span>
                             {index + 1}.
-                        </span>
+                        </span>-->
                         <div class="flex flex-col gap-2 flex-grow">
                             <p class="word-def-item">
                                 {#if shouldShowDefForm(word, index)}
@@ -49,7 +49,7 @@
                             {#if Array.isArray(def.examples) && def.examples.length > 0}
                                 <div class="p-2 rounded bg-white bg-opacity-10 border-white border border-opacity-20">
                                     <h3 class="text-md opacity-70 font-medium">Examples</h3>
-                                    <ol class="ml-4 list-inside list-decimal word-example">
+                                    <ol class="ml-4 list-inside word-example">
                                         {#each def.examples as example}
                                             <li>
                                                 {@html parseMarkdown(example)}

@@ -41,9 +41,9 @@
                         </div>
                     {/each}
                 </div>
-                <Checkbox bind:checked={memoryTest}>
+                <!--<Checkbox bind:checked={memoryTest}>
                     Memory Test
-                </Checkbox>
+                </Checkbox>-->
             </div>
             <div class="word-information mt-[2px] h-full" style:max-height={`${containerHeight-2}px`}>
                 {#if wordList[currentSelectedWordIndex]}
