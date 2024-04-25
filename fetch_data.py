@@ -43,7 +43,7 @@ if __name__ == '__main__':
 			origin = entry['Origin']
 			pron = entry['Pronunciation']
 
-			jo = {'word':word, 'origin': origin, 'pron': pron, 'defs': [{'def': definition, 'examples': [example]}]}
+			jo = {'word':word, 'forms': [], 'origin': origin, 'pron': pron, 'defs': [{'def': definition, 'examples': [example]}], 'otherForms': []}
 			jl_ret_for_letter.append(jo)
 
 		with open('src/data/words/{}.ts'.format(letter), 'w') as ofp:
