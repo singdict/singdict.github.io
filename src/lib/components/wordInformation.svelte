@@ -84,7 +84,7 @@
             </ol>
         </div>
     {/if}
-    <div class="mt-12 w-full d-html-word">
+    <!--<div class="mt-12 w-full d-html-word">
         <div class="text-[1.2em] opacity-70 font-medium w-full flex items-center gap-1">
             <ExternalLink size={19} />
             <h2>Links</h2>
@@ -101,7 +101,7 @@
                 </li>
             {/each}
         </ul>
-    </div>
+    </div>-->
 </div>
 <WordAiTestModal bind:open={isAIModalOpen} currentWord={word} />
 
