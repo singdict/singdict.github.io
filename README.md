@@ -2,19 +2,18 @@
 
 This project originally forked from [`Vocabulary-App`](https://github.com/amitsingh19975/Vocabulary-App).
 
-## Creating a project
+## Dependency
 
-If you're seeing this, you've probably already done this step. Congrats!
+This project was tested on node@20.
+
+## Build / Install
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+npm install
+npm ci
 ```
 
-## Developing
+## Dev
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
