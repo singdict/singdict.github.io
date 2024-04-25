@@ -49,7 +49,7 @@
                             {#if Array.isArray(def.examples) && def.examples.length > 0}
                                 <div class="p-2 rounded bg-white bg-opacity-10 border-white border border-opacity-20">
                                     <h3 class="text-md opacity-70 font-medium">Examples</h3>
-                                    <ol class="ml-4 list-inside word-example">
+                                    <ol class="ml-4 list-inside list-desc word-example">
                                         {#each def.examples as example}
                                             <li>
                                                 {@html parseMarkdown(example)}
