@@ -1,0 +1,4 @@
+
+import type { WordSchema } from '../../model/wordsSchema';
+
+export default [{'word': 'Na', 'forms': [], 'origin': 'nA', 'pron': 'Interjection', 'defs': [{'def': 'Expression to denote an action of giving or location of item to be taken', 'examples': ['Na... Take this pencil']}], 'otherForms': []}, {'word': 'Nangka', 'forms': [], 'origin': 'nANkA', 'pron': 'N', 'defs': [{'def': 'jackfruit', 'examples': ['When you eat the nangka, remember to leave the seeds for me. I want to eat later.']}], 'otherForms': []}, {'word': 'Nasi', 'forms': [], 'origin': 'nAsi', 'pron': 'N', 'defs': [{'def': 'rice', 'examples': ['I like dishes with rice like nasi lemak and nasi goreng.']}], 'otherForms': []}, {'word': 'Nenek', 'forms': [], 'origin': 'nEnEk', 'pron': 'N', 'defs': [{'def': 'Grandma', 'examples': ["Later wear nicer, we're going to nenek house."]}], 'otherForms': []}] as WordSchema[];

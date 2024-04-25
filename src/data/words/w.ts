@@ -1,0 +1,4 @@
+
+import type { WordSchema } from '../../model/wordsSchema';
+
+export default [{'word': 'what', 'forms': [], 'origin': 'wa:t', 'pron': 'Particle', 'defs': [{'def': 'Emphasizes the truth of an assertion made to contradict an evidently false assumption held by the listener. (from Wiktionary)\nIt pronounced with a low tone (tone 6).', 'examples': ["He's was born here what6. Of course he knows Singlish!"]}], 'otherForms': []}, {'word': 'wor', 'forms': [], 'origin': 'wO', 'pron': 'Particle', 'defs': [{'def': 'A mid level tone particle  (tone 3) used to express surprise, disbelief or doubt.', 'examples': ['Really cannot log in wor3, even though they said they just fixed it yesterday.']}], 'otherForms': []}] as WordSchema[];

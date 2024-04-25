@@ -33,6 +33,7 @@ if __name__ == '__main__':
 		vocab[initial] = vocab.get(initial, []) + [word]
 	
 	for letter in string.ascii_lowercase:
+		if letter not in vocab: continue
 		entries = vocab[letter]
 		jl_ret_for_letter = []
 		for entry in entries:
