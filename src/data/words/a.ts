@@ -1,10 +1,5 @@
 import type { WordSchema } from '../../model/wordsSchema';
 
-const GRE_LINK: NonNullable<WordSchema['links']>[number] = {
-    link: "https://www.prepscholar.com/gre/blog/gre-vocabulary-list-words/",
-    title: "The 357 Best GRE Vocabulary Words: Complete List"
-}
-
 export default [
     {
         word: "abate",
@@ -27,8 +22,7 @@ export default [
                 form: "noun",
                 word: "abatement"
             }
-        ],
-        links: [GRE_LINK]
+        ]
     },
     {
         word: "aberrant",
@@ -51,8 +45,7 @@ export default [
                 form: 'adv',
                 word: 'aberrantly'
             },
-        ],
-        links: [GRE_LINK]
+        ]
     },
     {
         word: "abjure",
@@ -71,8 +64,7 @@ export default [
                 form: "noun",
                 word: "abjuration"
             },
-        ],
-        links: [GRE_LINK]
+        ]
     },
     {
         word: "abscond",
@@ -92,8 +84,7 @@ export default [
                 form: "noun",
                 word: "absconder"
             }
-        ],
-        links: [GRE_LINK]
+        ]
     },
     {
         word: "abstain",
@@ -116,8 +107,7 @@ export default [
                 form: "adj",
                 word: "abstinent"
             }
-        ],
-        links: [GRE_LINK]
+        ]
     },
     {
         word: "acumen",
@@ -130,8 +120,7 @@ export default [
                     "The CEO's **business/financial** acumen helped her company grow."
                 ]
             }
-        ],
-        links: [GRE_LINK]
+        ]
     },
     {
         word: "admonish",
@@ -163,8 +152,7 @@ export default [
                 form: "adv",
                 word: "admonishingly"
             }
-        ],
-        links: [GRE_LINK]
+        ]
     },
     {
         word: "adulterate",
@@ -182,8 +170,7 @@ export default [
                 form: "noun",
                 word: "adulteration"
             },
-        ],
-        links: [GRE_LINK]
+        ]
     },
     {
         word: "advocate",
@@ -204,8 +191,7 @@ export default [
                     "The advocate of the new green deal is a young politician.",
                 ]
             }
-        ],
-        links: [GRE_LINK]
+        ]
     },
     {
         word: 'aesthetic',
@@ -228,8 +214,7 @@ export default [
                 form: 'adv',
                 word: 'aesthetically'
             }
-        ],
-        links: [GRE_LINK]
+        ]
     },
     {
         word: 'affectation',
@@ -242,8 +227,7 @@ export default [
                     'In the end, the affectation was the reason why he was caught.'
                 ],
             }
-        ],
-        links: [GRE_LINK]
+        ]
     },
     {
         word: 'aggrandize',
@@ -262,8 +246,7 @@ export default [
                 form: 'noun',
                 word: 'aggrandizement'
             }
-        ],
-        links: [GRE_LINK]
+        ]
     },
     {
         word: 'alacrity',
@@ -276,8 +259,7 @@ export default [
                     'As soon as the recess bell rang, the students left the classroom **with** alacrity.'
                 ],
             }
-        ],
-        links: [GRE_LINK]
+        ]
     },
     {
         word: 'alleviate',
@@ -296,7 +278,6 @@ export default [
                 form: 'noun',
                 word: 'alleviation'
             },
-        ],
-        links: [GRE_LINK]
+        ]
     }
 ] as WordSchema[];
