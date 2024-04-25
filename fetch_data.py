@@ -25,7 +25,7 @@ if __name__ == '__main__':
 	repo = github.get_repo('singdict/SingDict')
 	word_files = get_word_files(repo)
 	vocab = dict()
-	for word in tqdm(word_files[:10]):
+	for word in tqdm(word_files):
 		path = word.path
 		#content = word.decoded_content.decode()
 		filename = os.path.split(path)[-1]
