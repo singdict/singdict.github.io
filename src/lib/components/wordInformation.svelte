@@ -3,20 +3,6 @@
         <div class="flex items-baseline gap-1">
             <h1 class="capitalize text-[2em] font-extrabold">{word.word}</h1>
             <span class="opacity-70 lowercase" class:memory-test={memoryTest}>{word.forms.join(', ')}</span>
-            <button
-                on:click={onSpeakClick}
-                disabled={!isSpeechEnabled}
-                class="
-                    ml-2 hover:bg-black hover:bg-opacity-30 border
-                    border-transparent hover:border-white
-                    hover:border-opacity-20 rounded-full p-2
-                    active:bg-black active:bg-opacity-40
-                    disabled:opacity-50 disabled:cursor-not-allowed
-                "
-                aria-label="Speak the word"
-            >
-                <SpeakerLoud size={18} />
-            </button>
         </div>
         {#if isAIEnabled}
             <div>
