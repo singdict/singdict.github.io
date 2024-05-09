@@ -27,7 +27,6 @@ if __name__ == '__main__':
 	vocab = dict()
 	for word in tqdm(word_files):
 		path = word.path
-		#content = word.decoded_content.decode()
 		filename = os.path.split(path)[-1]
 		initial = filename[0].lower()
 		vocab[initial] = vocab.get(initial, []) + [word]
@@ -45,6 +44,11 @@ if __name__ == '__main__':
 			pron = entry['Pronunciation']
 
 			jo = {'word':word, 'forms': [], 'origin': origin, 'pron': pron, 'defs': [{'def': definition, 'examples': [example]}], 'otherForms': []}
+
+			if 'POS' in entry:
+				# TODO need to process words those have multiple POSes
+				jo['POS'] = entry['POS']
+
 			jl_ret_for_letter.append(jo)
 
 		with open('src/data/words/{}.ts'.format(letter), 'w') as ofp:
