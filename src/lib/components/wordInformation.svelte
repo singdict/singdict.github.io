@@ -2,6 +2,9 @@
     <div class="flex justify-between items-center">
         <div class="flex items-baseline gap-1">
             <h1 class="capitalize text-[2em] font-extrabold">{word.word}</h1>
+            {#if word.pron}
+				<span><h3>/{word.pron}/</h3></span>
+			{/if}
             <span class="opacity-70 lowercase" class:memory-test={memoryTest}>{word.forms.join(', ')}</span>
             <button
                 on:click={onSpeakClick}
@@ -62,6 +65,26 @@
                     </li>
                 {/each}
             </ol>
+        </div>
+    {/if}
+    {#if word.POS}
+        <div class="mt-3 w-full d-html-word">
+            <h2 class="text-[1.2em] opacity-70 font-medium w-full">POS</h2>
+            <div class="ml-5 mt-2 w-full other-form-list">
+                <p class="word-def-item">
+                    {@html parseMarkdown(word.POS)}
+                </p>
+            </div>
+        </div>
+    {/if}
+    {#if word.origin}
+        <div class="mt-3 w-full d-html-word">
+            <h2 class="text-[1.2em] opacity-70 font-medium w-full">Origin</h2>
+            <div class="ml-5 mt-2 w-full other-form-list">
+                <p class="word-def-item">
+                    {@html parseMarkdown(word.origin)}
+                </p>
+            </div>
         </div>
     {/if}
     {#if Array.isArray(word?.otherForms) && word.otherForms.length > 0}
