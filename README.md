@@ -33,3 +33,6 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
+
+### Icon
+The icon used for this website was created by [Rabbit Jes](https://thenounproject.com/creator/nsw.weuy) and obtained from [The Noun Project](https://thenounproject.com/icon/singapore-4007320/) under the creative commons attribution license (CC BY 3.0).
