@@ -19,6 +19,12 @@ def get_word_files(repo):
 			word_files.append(file_content)
 	return word_files
 
+def preproc_example(example_str):
+	if len(example_str) == 0:
+		return []
+	else:
+		return [example_str]
+
 if __name__ == '__main__':
 	token = get_github_token()
 	github = Github(auth=token)
@@ -39,11 +45,11 @@ if __name__ == '__main__':
 			entry = json.loads(entry.decoded_content.decode())
 			word = entry['Word']
 			definition = entry['Definition']
-			example = entry['Example']
+			example = preproc_example(entry['Example'])
 			origin = entry['Origin']
 			pron = entry['Pronunciation']
 
-			jo = {'word':word, 'forms': [], 'origin': origin, 'pron': pron, 'defs': [{'def': definition, 'examples': [example]}], 'otherForms': []}
+			jo = {'word':word, 'forms': [], 'origin': origin, 'pron': pron, 'defs': [{'def': definition, 'examples': example}], 'otherForms': []}
 
 			if 'POS' in entry:
 				# TODO need to process words those have multiple POSes
