@@ -6,7 +6,7 @@
         towards this dictionary, whether you'd like to add a new entry, correct
         existing entries or add in some detail e.g., language of origin to
         enhance them, please send an issue to our GitHub <a
-            href="https://github.com/globalwordnet/english-wordnet/issues/new/choose"
+            href="https://github.com/singdict/SingDict/issues/new/choose"
             target="_blank"
             title="Link to SingDict GitHub Issues Page">here</a
         >.
