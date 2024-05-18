@@ -1,8 +1,8 @@
 <div class="h-full grid relative" style="grid-template-rows: 3rem calc(100% - 3rem);">
     <header class="h-[3rem] flex px-4 items-baseline">
         <a href={`${base}/`} aria-label="logo" class="flex items-center hover:text-sky-200 transition-colors">
-            <span class="font-bold text-[1.4em]">V</span>
-            <span class="mt-1">ocabulary</span>
+            <span class="text-2xl align-baseline">SingDict</span>&nbsp;
+	    <span class="mt-1 align-baseline hidden md:block">— the Open Singlish Dictionary</span>
         </a>
         <nav class="flex-grow flex justify-center -ml-[10rem]">
             <ul class="flex items-center">
