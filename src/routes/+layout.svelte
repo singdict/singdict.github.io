@@ -9,8 +9,9 @@
 
     const navItems = [
         { name: "Home", href: "/" },
-        { name: "Quiz Mode", href: "/quiz-mode" },
+        // { name: "Quiz Mode", href: "/quiz-mode" },
         { name: "About", href: "/about" },
+        { name: "Contribute", href: "/contribute" },
     ];
 
     let animation: Animation | undefined = undefined;
