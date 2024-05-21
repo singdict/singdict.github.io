@@ -1,17 +1,16 @@
 <div class="contribute-container">
     <h1>Contribute your Singlish knowledge!</h1>
-    <p>
-        As many of our entries come directly from ChatGPT, it is difficult to
-        ensure the quality of each of them. If you would like to contribute
+    <p class= "text-left">
+        As many of our entries come directly from ChatGPT, they are far
+	from perfect. If you would like to contribute
         towards this dictionary, whether you'd like to add a new entry, correct
-        existing entries or add in some detail e.g., language of origin to
-        enhance them, please send an issue to our GitHub <a
+        existing entries or add in some detail e.g., language of origin, to
+        enhance them,  <a
             href="https://github.com/singdict/SingDict/issues/new/choose"
             target="_blank"
-            title="Link to SingDict GitHub Issues Page">here</a
-        >.
+            title="Link to SingDict GitHub Issues Page">please add an issue on GitHub here</a>.
     </p>
-    <p>
+    <p class="text-left">
         Please choose the one of the existing templates coresponding to the
         suggestion you would like to make and we will see to it as soon as
         possible. Thank you!
