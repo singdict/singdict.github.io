@@ -10,10 +10,10 @@
 </div>
 
 <svelte:head>
-    <title>Vocabulary</title>
-    <meta name="description" content="Vocabulary App for learning words with AI" />
-    <meta name="keywords" content="Vocabulary, AI, Learning, Words" />
-    <meta name="author" content="Amit Singh" />
+    <title>SingDict</title>
+    <meta name="description" content="Interface to SingDict: the Open Singlish Dictionary" />
+    <meta name="keywords" content="Singlish, Open Data" />
+    <meta name="author" content="Chang-Uk Shin, Chow Siew Yen, Francis Bond" />
 </svelte:head>
 
 <script lang="ts">

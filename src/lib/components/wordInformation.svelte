@@ -3,7 +3,7 @@
         <div class="flex items-baseline gap-1">
             <h1 class="capitalize text-[2em] font-extrabold">{word.word}</h1>
             {#if word.pron}
-				<span><h3>/{word.pron}/</h3></span>
+				<span><h3>/{word.pron.split('\n').join('/, /')}/</h3></span>
 			{/if}
             <span class="opacity-70 lowercase" class:memory-test={memoryTest}>{word.forms.join(', ')}</span>
             <button
