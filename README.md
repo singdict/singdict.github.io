@@ -1,4 +1,4 @@
-# create-svelte
+# Singdict.github.io
 
 This project originally forked from [`Vocabulary-App`](https://github.com/amitsingh19975/Vocabulary-App).
 
